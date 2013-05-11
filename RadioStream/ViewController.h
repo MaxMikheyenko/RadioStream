@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *playControl;
+- (IBAction)togglePlay:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *state;
 
 @end

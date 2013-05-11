@@ -18,6 +18,8 @@
 		6AD45E11173DDD7100B4F493 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD45E10173DDD7100B4F493 /* Default-568h@2x.png */; };
 		6AD45E14173DDD7100B4F493 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD45E13173DDD7100B4F493 /* ViewController.m */; };
 		6AD45E17173DDD7100B4F493 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD45E15173DDD7100B4F493 /* ViewController.xib */; };
+		6AD45E1E173DDDEB00B4F493 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD45E1D173DDDEB00B4F493 /* AVFoundation.framework */; };
+		6AD45E20173DDE6600B4F493 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD45E1F173DDE6600B4F493 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		6AD45E12173DDD7100B4F493 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6AD45E13173DDD7100B4F493 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6AD45E16173DDD7100B4F493 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6AD45E1D173DDDEB00B4F493 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6AD45E1F173DDE6600B4F493 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD45E20173DDE6600B4F493 /* MediaPlayer.framework in Frameworks */,
+				6AD45E1E173DDDEB00B4F493 /* AVFoundation.framework in Frameworks */,
 				6AD45DFB173DDD7100B4F493 /* UIKit.framework in Frameworks */,
 				6AD45DFD173DDD7100B4F493 /* Foundation.framework in Frameworks */,
 				6AD45DFF173DDD7100B4F493 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,8 @@
 		6AD45DEE173DDD7100B4F493 = {
 			isa = PBXGroup;
 			children = (
+				6AD45E1F173DDE6600B4F493 /* MediaPlayer.framework */,
+				6AD45E1D173DDDEB00B4F493 /* AVFoundation.framework */,
 				6AD45E00173DDD7100B4F493 /* RadioStream */,
 				6AD45DF9173DDD7100B4F493 /* Frameworks */,
 				6AD45DF8173DDD7100B4F493 /* Products */,
